@@ -1,4 +1,4 @@
-package co.wedevx.digitalbank.automation.ui.runners;
+ludpackage co.wedevx.digitalbank.automation.ui.runners;
 
 
 import org.junit.platform.suite.api.*;
@@ -9,7 +9,7 @@ import static io.cucumber.junit.platform.engine.Constants.GLUE_PROPERTY_NAME;
 @IncludeEngines("cucumber")
 @SelectClasspathResource("ui.features")
 @ConfigurationParameter(key=GLUE_PROPERTY_NAME, value = "co/wedevx/digitalbank/automation/ui/steps")
-@IncludeTags("Test")
+@ExcludeTags("Test")
 
 public class UIRegressionRunner {
 
