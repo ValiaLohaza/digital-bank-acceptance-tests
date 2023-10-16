@@ -6,7 +6,7 @@ Feature: Digital Bank Registration Page
     And  user navigates to Digital Bank signup page
 
 
-  @Test
+    @Test
   Scenario: Positive case. As I user I want successfully create Digital Bank Account
 
     When user creates an account with following fields
