@@ -1,4 +1,4 @@
-ludpackage co.wedevx.digitalbank.automation.ui.runners;
+package co.wedevx.digitalbank.automation.ui.runners;
 
 
 import org.junit.platform.suite.api.*;
